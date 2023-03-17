@@ -20,7 +20,7 @@ def decrypt(ciphertext, key):
 
 
 plaintext = "05"
-key = 3
+key = 5
 ciphertext = encrypt(plaintext, key)
 print("Ciphertext:", ciphertext)
 decrypted_text = decrypt(ciphertext, key)
